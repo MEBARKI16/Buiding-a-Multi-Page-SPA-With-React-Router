@@ -5,9 +5,9 @@ const Products = () => {
     <section>
     <h1>The Products Page</h1>
     <ul>
-        <li><Link to="/product-detail">product 1</Link></li>
-        <li>product 2</li>
-        <li>product 3</li>
+        <li><Link to="/product-detail/p1">A Book</Link></li>
+        <li><Link to="/product-detail/p2">A Carpet</Link></li>
+        <li><Link to="/product-detail/p3">An Online Course</Link></li>
     </ul>
     </section>);
 };
